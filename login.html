@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!-- Add Logo Image In Titlebar -->
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <!-- Add BootstrapCSS File -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Add CustomeCSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Font Awessom File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar. -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-5 fw-bold mx-5" href="#">
+                <img src="image/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                E-Commerce
+            </a>
+            <!-- <a class="navbar-brand" href="#"><i class="fa-solid fa-cart-shopping"> E-Commerce</i></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active fs-5 fw-normal" aria-current="page" href="#"><i
+                                class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link fs-5 fw-normal" href="#"><i class="fa-solid fa-cart-arrow-down"></i> Cart</a>
+                    </li>
+                    <li class="nav-item dropdown mx-1">
+                        <a class="nav-link dropdown-toggle fs-5 fw-normal" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user"></i> Sign in
+                        </a>
+
+
+
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item fs-5 fw-normal" href="#">
+                                    New customer?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label class="text-primary fs-5 fw-normal">Sign Up
+                                    </label>
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5 fw-normal" href="#">
+                                    <i class="fa-regular fa-user"></i>
+                                    My Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5 fw-normal" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                    My Faverates
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5 fw-normal" href="#">
+                                    <i class="fa-brands fa-shopify"></i>
+                                    My Orders
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5 fw-normal" href="login.html">
+                                    <i class="fa-solid fa-right-to-bracket"></i> Log_in
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="" class="nav-link fs-5 fw-normal">
+                            <i class="fa-solid fa-shop"></i>
+                            Become a Seller
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 fs-5 fw-normal" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success fs-5 fw-normal" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6" id="loginLeft">
+                <form action="OTP_Check.html">
+                    <div class="form-group">
+                        <label for="">Enter Email/Mobile Number</label>
+                        <input type="text" class="form-control" placeholder="Email/Mobile">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-outline-success form-control mt-lg-3"
+                            placeholder="Email/Mobile" value="Request OTP">
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6" id="loginRight">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
